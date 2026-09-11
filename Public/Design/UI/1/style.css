@@ -61,7 +61,7 @@ section {
 }
 section h1 {
     position: relative;
-    top: -90px;
+    top: -80px;
     z-index: 1;
     font-size: 300px;
     opacity: 0.3;
