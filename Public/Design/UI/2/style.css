@@ -1,0 +1,130 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav {
+    padding: 1% 6% 0.5% 6%;
+    height: 6%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    
+}
+#logo {
+    cursor: pointer;
+}
+.navleft {
+    display: flex;
+    width: 50%;
+    gap: 20px;
+    align-items: center;
+    font-size: 14px;
+    
+}
+#navfirst {
+    margin-left: 30px;
+}
+.navleft p {
+    cursor: pointer;
+}
+.navleft p:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+    padding-bottom: 2px;
+}
+.navright {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    
+}
+.navicon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.navright .navicon:hover {
+    /* text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px; */
+    border-bottom: 3px solid black;
+    margin-bottom: 2px;
+}
+.navright p {
+    cursor: pointer;
+}
+
+section {
+    background-color: red;
+    height: 80%;
+    background-image: url("./assets/Hero-Desktop-M365-Icon-Bounce-Premium-Left.avif");
+    background-position: center;
+    background-size: cover;
+}
+/* section img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+} */
+ section div {
+    padding-left: 50%;
+    padding-top: 10%;
+ }
+ section h1 {
+    font-size: 50px;
+    font-weight: 630;
+ }
+ section p {
+    padding: 10px;
+    font-weight: 450;
+ }
+ #Shop {
+    margin-top: 15px;
+    padding: 15px 15px;
+    background-color: #006DC1;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+ }
+
+ .catogery {
+    /* background-color: red; */
+    padding-top: 2%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+ }
+ .catogery .elements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #2A446F;
+    cursor: pointer;
+ }
+ .catogery .elements p {
+    padding-top: 10%;
+    color: #2A446F;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+    
+ }
